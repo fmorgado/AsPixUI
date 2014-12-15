@@ -9,7 +9,7 @@ package pixui.views {
 		
 		/** @inheritDoc */
 		override protected function onAddedToStage():void {
-			super.addedToStage();
+			super.onAddedToStage();
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			stage.stageFocusRect = false;
